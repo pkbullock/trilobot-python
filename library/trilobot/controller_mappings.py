@@ -188,10 +188,10 @@ def create_xbox_one_wireless_controller(stick_deadzone_percent=0.2):
 
     controller.register_axis("LX", 0, -32768, 32768, deadzone_percent=stick_deadzone_percent)
     controller.register_axis("LY", 1, -32768, 32768, deadzone_percent=stick_deadzone_percent)
-    controller.register_axis("RX", 3, -32768, 32768, deadzone_percent=stick_deadzone_percent)
-    controller.register_axis("RY", 4, -32768, 32768, deadzone_percent=stick_deadzone_percent)
-    controller.register_trigger_axis("LT", 2, 0, 255, alt_name="L2")
-    controller.register_trigger_axis("RT", 5, 0, 255, alt_name="R2")
+    controller.register_axis("RX", 2, -32768, 32768, deadzone_percent=stick_deadzone_percent)
+    controller.register_axis("RY", 3, -32768, 32768, deadzone_percent=stick_deadzone_percent)
+    controller.register_trigger_axis("LT", 5, -32768, 32768, alt_name="L2")
+    controller.register_trigger_axis("RT", 4, -32768, 32768, alt_name="R2")
     return controller
 
 def create_ps4_wireless_controller(stick_deadzone_percent=0.1):
