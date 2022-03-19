@@ -274,7 +274,7 @@ def choose_controller():
                        ("8BitDo SN30 Pro+", create_8bitdo_sn30_pro_controller),
                        ("RockCandy Controller", create_rock_candy_controller),
                        ("XBox360 Wireless Receiver", create_xbox360_wireless_controller),
-                       ("XBoxOne Wireless Controller, create_xbox_one_wireless_controller)
+                       ("XBoxOne Wireless Controller", create_xbox_one_wireless_controller),
                        ("PS4 Controller", create_ps4_wireless_controller),
                        ("PS4 Controller - Touchpad", create_ps4_wireless_controller_touchpad),
                        ("PS4 Controller - Motion Sensors", create_ps4_wireless_controller_motion)]
